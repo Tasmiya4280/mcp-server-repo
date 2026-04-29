@@ -39,7 +39,7 @@ jobs:
       - name: Run golangci-lint
         uses: golangci/golangci-lint-action@v6   # <-- was "run:" should be "uses:"
         with:
-          version: v1.59.2
+          version: v1.64.8
 
   push:                                          # <-- this job was missing entirely
     runs-on: ubuntu-latest
